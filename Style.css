@@ -177,7 +177,7 @@ header {
 
 div .connect-btn {
 	padding: 10px 20px;
-	background-color: #db0f0f;
+	background-color: #350cef;
 	color: #ffffff;
 	border: none;
 	border-radius: 5px;
@@ -189,7 +189,7 @@ div .connect-btn:hover {
 }
 
 .time-lock button {
-	background-color: #db0f0f; 
+	background-color: #350cef; 
 	color: white;
 	padding: 10px 20px;
 	border: none;
@@ -199,3 +199,15 @@ div .connect-btn:hover {
 .time-lock button:hover {
 	background-color: #0bb714; 
 }
+
+button[type="submit"] {
+	background-color: #350cef; 
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+	background-color: #0bb714; 
+  }
