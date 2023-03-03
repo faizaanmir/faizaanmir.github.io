@@ -189,7 +189,7 @@ div .connect-btn:hover {
 }
 
 .time-lock button {
-	background-color: #350cef; 
+	background-color: #350cef;
 	color: white;
 	padding: 10px 20px;
 	border: none;
@@ -197,17 +197,36 @@ div .connect-btn:hover {
 }
 
 .time-lock button:hover {
-	background-color: #0bb714; 
+	background-color: #0bb714;
 }
 
 button[type="submit"] {
-	background-color: #350cef; 
+	background-color: #350cef;
 	color: white;
 	padding: 10px 20px;
 	border: none;
 	cursor: pointer;
-  }
-  
-  button[type="submit"]:hover {
-	background-color: #0bb714; 
-  }
+}
+
+button[type="submit"]:hover {
+	background-color: #0bb714;
+}
+
+/* Add a border around the paragraph */
+h1 {
+	border: 1px solid #2e8b57;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; 
+	font-family: 'Times New Roman', Times, serif;
+}
+
+/* Add a shadow to the content box */
+p{
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; ;
+	padding: 20px;
+	border-radius: 10px;
+	font-weight: 100;
+}
+
+/* */
