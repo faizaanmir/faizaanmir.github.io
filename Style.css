@@ -1,0 +1,189 @@
+/* global styles */
+p{
+	font-size: 100px;
+	font-weight: bold;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div {
+	text-align: center;
+}
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+/* header styles */
+header {
+	background-color: #1a1a1a;
+	color: #ffffff;
+	padding: 20px;
+}
+
+.logo {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* crowdfunding section styles */
+.crowd-funding {
+	background-color: #f2f2f2;
+	padding: 50px;
+	text-align: center;
+}
+
+.crowd-funding h1 {
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+.crowd-funding p {
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+.crowd-funding label {
+	display: block;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.crowd-funding select {
+	font-size: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	background-color: #ffffff;
+}
+
+.crowd-funding button {
+	background-color: #1a1a1a;
+	color: #ffffff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.crowd-funding button:hover {
+	background-color: #000000;
+}
+
+/* wallets and currencies section styles */
+.wallets,
+.currencies {
+	background-color: #ffffff;
+	padding: 50px;
+	text-align: center;
+}
+
+.wallets h2,
+.currencies h2 {
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+.wallets ul,
+.currencies ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.wallets li,
+.currencies li {
+	font-size: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	width: 25%;
+}
+
+.wallets img,
+.currencies img {
+	max-width: 100px;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+/* footer styles */
+footer {
+	background-color: #1a1a1a;
+	color: #ffffff;
+	padding: 20px;
+	text-align: center;
+}
+
+footer p {
+	font-size: 16px;
+}
+.wallets li.mynewWallet img {
+	content: url();
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+	background-color: #000000;
+}
+
+.logo {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+}
+
+.logo img {
+	max-width: 100%;
+	height: auto;
+}
+.connect-wallet {
+	text-align: center;
+	margin-top: 20px;
+}
+
+div .connect-btn {
+	padding: 10px 20px;
+	background-color: #000000;
+	color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.connect-btn:hover {
+	background-color: #000;
+}

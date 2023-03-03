@@ -1,0 +1,107 @@
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="crowdfunding-section">
+      <h1>Crowdfunding Section</h1>
+      <form>
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" name="amount" required>
+
+        <label for="wallet">Select Wallet:</label>
+        <select id="wallet" name="wallet">
+          <option value="btc">Bitcoin</option>
+          <option value="eth">Ethereum</option>
+          <option value="ltc">Litecoin</option>
+        </select>
+
+        <label for="currency">Select Currency:</label>
+        <select id="currency" name="currency">
+          <option value="usd">US Dollars</option>
+          <option value="eur">Euros</option>
+          <option value="gbp">British Pounds</option>
+        </select>
+
+        <button type="submit">Donate</button>
+      </form>
+    </section>
+
+    <section class="wallet-section">
+      <h2>Wallet Section</h2>
+      <ul>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn">Bitcoin</button>
+            <div class="dropdown-content">
+              <a href="#">Deposit</a>
+              <a href="#">Withdraw</a>
+              <a href="#">Send</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn">Ethereum</button>
+            <div class="dropdown-content">
+              <a href="#">Deposit</a>
+              <a href="#">Withdraw</a>
+              <a href="#">Send</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn">Litecoin</button>
+            <div class="dropdown-content">
+              <a href="#">Deposit</a>
+              <a href="#">Withdraw</a>
+              <a href="#">Send</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="currency-section">
+      <h2>Currency Section</h2>
+      <ul>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn">US Dollars</button>
+            <div class="dropdown-content">
+              <a href="#">Deposit</a>
+              <a href="#">Withdraw</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn">Euros</button>
+            <div class="dropdown-content">
+              <a href="#">Deposit</a>
+              <a href="#">Withdraw</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn">British Pounds</button>
+            <div class="dropdown-content">
+              <a href="#">Deposit</a>
+              <a href="#">Withdraw</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
