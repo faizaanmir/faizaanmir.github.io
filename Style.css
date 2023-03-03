@@ -1,5 +1,5 @@
 /* global styles */
-p{
+p {
 	font-size: 100px;
 	font-weight: bold;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -177,13 +177,25 @@ header {
 
 div .connect-btn {
 	padding: 10px 20px;
-	background-color: #000000;
+	background-color: #db0f0f;
 	color: #ffffff;
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
 }
 
-.connect-btn:hover {
-	background-color: #000;
+div .connect-btn:hover {
+	background-color: #0bb714;
+}
+
+.time-lock button {
+	background-color: #db0f0f; 
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+}
+
+.time-lock button:hover {
+	background-color: #0bb714; 
 }
