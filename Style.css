@@ -21,8 +21,8 @@ body {
 
 /* header styles */
 header {
-	background-color: #1a1a1a;
-	color: #ffffff;
+	background-color: #bf8d8d;
+	color: #fcfafa;
 	padding: 20px;
 }
 
@@ -156,7 +156,7 @@ header {
 	align-items: center;
 	justify-content: center;
 	height: 100px;
-	background-color: #000000;
+	background-color: #226ed2;
 }
 
 .logo {
@@ -165,8 +165,8 @@ header {
 	height: 100px;
 	margin-right: 20px;
 	border-radius: 50%;
+	object-fit: contain;
 }
-
 
 .connect-wallet {
 	text-align: center;
@@ -215,7 +215,6 @@ h1 {
 	border: 1px solid #2e8b57;
 	padding: 20px;
 	border-radius: 10px;
-	box-shadow: rgba(5, 5, 214, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; 
+	box-shadow: rgba(16, 4, 86, 0.25) 0px 30px 60px -12px inset, rgba(17, 5, 88, 0.324) 0px 18px 36px -18px inset;
 	font-family: 'Times New Roman', Times, serif;
 }
-
